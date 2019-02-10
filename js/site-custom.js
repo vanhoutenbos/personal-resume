@@ -327,6 +327,8 @@
 	            subject: "Please enter a subject.",
 	            comment: "Please enter a comment."
 	        },
-	    }); /*========================================*/
+		}); /*========================================*/
+
+		$("#coffeecounter").html(500);
 		
 	});
