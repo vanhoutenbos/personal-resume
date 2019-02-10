@@ -1,24 +1,24 @@
 ﻿<!DOCTYPE html>
 <html lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<link rel="shortcut icon" href="images/favicon.png">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="images/favicon.png">
 
-	<title>Jean-Paul - Developer | Domotica Geek</title>
+    <title>Jean-Paul - Developer | Domotica Geek</title>
 
-	<!-- Bootstrap core CSS -->
-	<link href="css/base.css" rel="stylesheet">
-	<link rel="stylesheet" class="alt" href="css/theme/default.css">    
-
-	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!--[if lt IE 9]>
-	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-	<![endif]-->
-  </head>
+    <!-- Bootstrap core CSS -->
+    <link href="css/base.css" rel="stylesheet">
+    <link rel="stylesheet" class="alt" href="css/theme/blaze-orange.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
 
 <body>
 	
@@ -49,7 +49,7 @@
 						<li><a href="#resume">CV</a></li>
 						<li><a href="#skill">Vaardigheden</a></li>
 						<li><a href="#works">Mijn Werkervaring</a></li>     
-						<li><a href="#blog">Blog</a></li>
+						<!--<li><a href="#blog">Blog</a></li>-->
 						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</div>
@@ -80,7 +80,7 @@
 			</div>
 		</section>
 		
-		<section id="about" class="page-content">
+		<section id="about" class="page-content"  style="padding-bottom:0px;">
 			<div class="container">
 				<div class="main-head">
 					<h1>Over mij</h1>
@@ -88,10 +88,9 @@
 				
 				<div class="row">
 					<div class="col-md-4">
-						<div class="sub-head">my story</div>
+						<div class="sub-head">Mijn verhaal</div>
 						<p>Nam tempor finibus sodales. Nulla nulla turpis, fringilla sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobortis. Sed id porta metus. Phasellus nec convallis odio, vel laoreet enim. In quis risus sem. </p>
 						<p>Nunc molestie lectus quis dui ultrices, a ullamcorper velit tempus. Curabitur cursus tellus eu aliquam interdum. Curabitur convallis ornare scelerisque. In fringilla lorem felis, in imperdiet sem aliquam in. </p>
-						<img src="images/signature.png" alt="">
 					</div>
 					<div class="col-md-8">
 						<div class="sub-head">Persoonlijke informatie</div>
@@ -102,19 +101,9 @@
 										<ul>
 											<li>Naam : Jean-Paul van Houten</li>
 											<li>Geboortedatum : 14-02-1994</li>
-											<li>Email : <a href="mailto:jeanpaulvanhouten@gmail.com">Mail</a></li>
+											<li>Email : <a href="mailto:jeanpaulvanhouten@gmail.com">Emailadres</a></li>
 											<li>Adres : Breda, Noord-Brabant, Nederland</li>
-										</ul>
-
-										<!--This is our template. -->
-											<!--Data will be inserted in its according place, replacing the brackets.-->
-											<script id="address-template" type="text/x-handlebars-template">
-												<p>You can find me in {{city}}. My address is {{number}} {{street}}.</p>
-											</script>
-											
-											<!--Your new content will be displayed in here-->
-											<div class="content-placeholder"></div>
-  
+										</ul>  
 									</div>
 								</div>
 							</div>
@@ -123,8 +112,14 @@
 					
 					<div class="col-md-12">
 						<div class="divider-spacer">&nbsp;</div>
-						<div class="sub-head">My Hobbies</div>
+						<div class="sub-head">Mijn hobbies</div>
 						<div class="owl-carousel" id="hobbie-slider">
+							<div class="item">
+								<div class="hobbies-wrap">
+									<i class="fa fa-code"></i>
+									Coding
+								</div>
+							</div>
 							<div class="item">
 								<div class="hobbies-wrap">
 									<i class="fa fa-gamepad"></i>
@@ -133,151 +128,173 @@
 							</div>
 							<div class="item">
 								<div class="hobbies-wrap">
-									<i class="fa fa-music"></i>
-									Music
+                                    <i class="fas fa-golf-ball"></i>
+									Golf
 								</div>
-							</div>
-							<div class="item">
-								<div class="hobbies-wrap">
-									<i class="fa fa-plane"></i>
-									Travel
-								</div>
-							</div>
-							<div class="item">
-								<div class="hobbies-wrap">
-									<i class="fa fa-shopping-cart"></i>
-									Shopping
-								</div>
-							</div>
-							<div class="item">
-								<div class="hobbies-wrap">
-									<i class="fa fa-comment-o"></i>
-									Bloging
-								</div>
-							</div>
-							<div class="item">
-								<div class="hobbies-wrap">
-									<i class="fa fa-soccer-ball-o"></i>
-									Sports
-								</div>
-							</div>
-							<div class="item">
-								<div class="hobbies-wrap">
-									<i class="fa fa-code"></i>
-									Coding
-								</div>
-							</div>           
+							</div>         
 						</div>
 					</div>
 				</div>
 			</div>
 			
-			<div class="download-resume parallax-area parallax-image" data-stellar-background-ratio="0.4" >
+			<div class="download-resume parallax-area parallax-image" data-stellar-background-ratio="0.4">
 				<div class="page-overlay"></div>
 				<div class="text-center container">
-					<div class="sub-head">Donwload Resume</div>
+					<div class="sub-head">Download CV</div>
 					<div class="resume-text">
-						<p>Don't You Get Enough About Me, Know more about my professional skills and experiecne. And if you like my work and epertise don't hesitate to contact me!</p>
-						<a href="#" class="btn-border-round dark">Download now</a>
+						<p>Download mijn CV in PDF formaat!</p>
+						<a href="https://drive.google.com/uc?export=download&id=1u7q1R5JoZd8c50AbO-23dWC6_RYqaYxA" class="btn-border-round dark">Download CV</a>
 					</div>	
 				</div>
 			</div>
 		</section>
 		
-		<section id="resume" class="page-content">
-			<div class="container">
-				<div class="main-head">
-					<h1>my resume</h1>
-				</div>
-				
-				<div class="row">
-					<div class="col-md-12 smart-mar">
-						<div class="sub-head">Work Experience</div>
-					</div>
-					<div class="spacer">
-						<!-- Work Experience Loop -->
-						<div class="col-md-6 col-xs-12">
-							<div class="experience-wrap experience">
-								<div class="date-wrap">
-									2012 / Jan Present
-								</div>
-								<div class="text-wrap">
-									<div class="organization-name">
-										<h4>Web Designer/Developer</h4>
-										<h5>Marketing Firm, Inc.</h5>
-									</div>
-									<div class="text-inner">
-										Nam tempor finibus sodales. Nulla nulla turpis, fringilla 
-	sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobortis. Sed id porta metus. Phasellus nec convallis odio, vel laoreet enim. In quis risus sem. 
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- Work Experience Loop -->
-						
-						<!-- Work Experience Loop -->
-						<div class="col-md-6 col-xs-12">
-							<div class="experience-wrap experience">
-								<div class="date-wrap">
-									2010 / Dec 2012 / Jan
-								</div>
-								<div class="text-wrap">
-									<div class="organization-name">
-										<h4>Web Designer/Developer</h4>
-										<h5>Marketing Firm, Inc.</h5>
-									</div>
-									<div class="text-inner">
-										Nam tempor finibus sodales. Nulla nulla turpis, fringilla 
-	sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobortis. Sed id porta metus. Phasellus nec convallis odio, vel laoreet enim. In quis risus sem. 
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- Work Experience Loop -->
-						<div class="clearfix"></div>
-					</div>
-					
-					<!-- Work Experience Loop -->
-					<div class="col-md-6 col-xs-12">
-						<div class="experience-wrap experience">
-							<div class="date-wrap">
-								2008 / Mar 2010 / Dec
-							</div>
-							<div class="text-wrap">
-								<div class="organization-name">
-									<h4>Web Designer/Developer</h4>
-									<h5>Marketing Firm, Inc.</h5>
-								</div>
-								<div class="text-inner">
-									Nam tempor finibus sodales. Nulla nulla turpis, fringilla 
-sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobortis. Sed id porta metus. Phasellus nec convallis odio, vel laoreet enim. In quis risus sem. 
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- Work Experience Loop -->
-					
-					<!-- Work Experience Loop -->
-					<div class="col-md-6 col-xs-12">
-						<div class="experience-wrap experience">
-							<div class="date-wrap">
-								2006 / Nov 2008 / Mar
-							</div>
-							<div class="text-wrap">
-								<div class="organization-name">
-									<h4>Web Designer/Developer</h4>
-									<h5>Marketing Firm, Inc.</h5>
-								</div>
-								<div class="text-inner">
-									Nam tempor finibus sodales. Nulla nulla turpis, fringilla 
-sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobortis. Sed id porta metus. Phasellus nec convallis odio, vel laoreet enim. In quis risus sem. 
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- Work Experience Loop -->
-				</div>
-			</div>
+        <section id="resume" class="page-content">
+            <div class="container">
+                <div class="main-head">
+                    <h1>Mijn CV</h1>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 smart-mar">
+                        <div class="sub-head">Werk ervaring</div>
+                    </div>
+                    <div class="spacer">
+                        <!-- Work Experience Loop -->
+                        <div class="col-md-6 col-xs-12">
+                            <div class="experience-wrap experience">
+                                <div class="date-wrap">
+                                    Jan 2019  Heden
+                                </div>
+                                <div class="text-wrap">
+                                    <div class="organization-name">
+                                        <h4>Medior .Net Developer</h4>
+                                        <h5>ParTech IT</h5>
+                                        <h6>Noord-Brabant</h6>
+                                    </div>
+                                    <div class="text-inner">
+                                        Nam tempor finibus sodales. Nulla nulla turpis, fringilla
+                                        sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobortis. Sed id porta metus. Phasellus nec convallis odio, vel laoreet enim. In quis risus sem.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Work Experience Loop -->
+                        <div class="col-md-6 col-xs-12">
+                            <div class="experience-wrap experience">
+                                <div class="date-wrap">
+                                    Juni 2016  Dec 2018
+                                </div>
+                                <div class="text-wrap">
+                                    <div class="organization-name">
+                                        <h4>.Net Developer</h4>
+                                        <h5>GGN</h5>
+                                        <h6>Tilburg</h6>
+                                    </div>
+                                    <div class="text-inner">
+                                        Nam tempor finibus sodales. Nulla nulla turpis, fringilla
+                                        sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobortis. Sed id porta metus. Phasellus nec convallis odio, vel laoreet enim. In quis risus sem.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Work Experience Loop -->
+                        <div class="clearfix"></div>
+                    </div>
+
+                    <!-- Work Experience Loop -->
+                    <div class="col-md-6 col-xs-12">
+                        <div class="experience-wrap experience">
+                            <div class="date-wrap">
+                                Juni 2015  Juni 2016
+                            </div>
+                            <div class="text-wrap">
+                                <div class="organization-name">
+                                    <h4>.Net Developer</h4>
+                                    <h5>Tri Torque Technology </h5>
+                                    <h6>Dussen</h6>
+                                </div>
+                                <div class="text-inner">
+                                    Nam tempor finibus sodales. Nulla nulla turpis, fringilla
+                                    sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobortis. Sed id porta metus. Phasellus nec convallis odio, vel laoreet enim. In quis risus sem.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Work Experience Loop -->
+                    <!-- Work Experience Loop -->
+                    <div class="col-md-6 col-xs-12">
+                        <div class="experience-wrap experience">
+                            <div class="date-wrap">
+                                Dec 2014  Juni 2015
+                            </div>
+                            <div class="text-wrap">
+                                <div class="organization-name">
+                                    <h4>VB & .Net Developer</h4>
+                                    <h5>Synchron Instrumenten B.V.</h5>
+                                    <h6>Etten-leur</h6>
+                                </div>
+                                <div class="text-inner">
+                                    Nam tempor finibus sodales. Nulla nulla turpis, fringilla
+                                    sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobortis. Sed id porta metus. Phasellus nec convallis odio, vel laoreet enim. In quis risus sem.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Work Experience Loop -->
+                </div>
+            </div>
+
+            <br />
+            <br />
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 smart-mar">
+                        <div class="sub-head">Mijn Opleidingen</div>
+                    </div>
+                    <div class="spacer">
+                        <!-- Work Experience Loop -->
+                        <div class="col-md-6 col-xs-12">
+                            <div class="experience-wrap education">
+                                <div class="date-wrap">
+                                    Sept 2011 Mei 2015
+                                </div>
+                                <div class="text-wrap">
+                                    <div class="organization-name">
+                                        <h4>Grafisch Lyceum Utrecht</h4>
+                                        <h5>Game Developer</h5>
+                                        <h6>Utrecht</h6>
+                                    </div>
+                                    <div class="text-inner">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Work Experience Loop -->
+                        <!-- Work Experience Loop -->
+                        <div class="col-md-6 col-xs-12">
+                            <div class="experience-wrap education">
+                                <div class="date-wrap">
+                                    Sept 2007 Mei 2011
+                                </div>
+                                <div class="text-wrap">
+                                    <div class="organization-name">
+                                        <h4>Oosterlicht College</h4>
+                                        <h5>VMBO</h5>
+                                        <h6>Nieuwegein</h6>
+                                    </div>
+                                    <div class="text-inner">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Work Experience Loop -->
+
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
 			
 			<div class="recognitions parallax-area parallax-image" data-stellar-background-ratio="0.4" >
 				<div class="page-overlay"></div>
@@ -308,100 +325,8 @@ sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobor
 					</div>	
 				</div>
 			</div>
-			
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 smart-mar">
-						<div class="sub-head">My education</div>
-					</div>
-					<div class="spacer">
-						<!-- Work Experience Loop -->
-						<div class="col-md-6 col-xs-12">
-							<div class="experience-wrap education">
-								<div class="date-wrap">
-									2003 / Sep 2000 / June
-								</div>
-								<div class="text-wrap">
-									<div class="organization-name">
-										<h4>New York State Univerity</h4>
-										<h5>Advance Graphic Designer</h5>
-									</div>
-									<div class="text-inner">
-										Nam tempor finibus sodales. Nulla nulla turpis, fringilla 
-	sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobortis. Sed id porta metus. Phasellus nec convallis odio, vel laoreet enim. In quis risus sem. 
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- Work Experience Loop -->
-						
-						<!-- Work Experience Loop -->
-						<div class="col-md-6 col-xs-12">
-							<div class="experience-wrap education">
-								<div class="date-wrap">
-									2003 / Sep 2000 / June
-								</div>
-								<div class="text-wrap">
-									<div class="organization-name">
-										<h4>New York State Univerity</h4>
-										<h5>Advance Graphic Designer</h5>
-									</div>
-									<div class="text-inner">
-										Nam tempor finibus sodales. Nulla nulla turpis, fringilla 
-	sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobortis. Sed id porta metus. Phasellus nec convallis odio, vel laoreet enim. In quis risus sem. 
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- Work Experience Loop -->
-						
-						<div class="clearfix"></div>
-					</div>
-					
-					<!-- Work Experience Loop -->
-					<div class="col-md-6 col-xs-12">
-						<div class="experience-wrap education">
-							<div class="date-wrap">
-								2003 / Sep 2000 / June
-							</div>
-							<div class="text-wrap">
-								<div class="organization-name">
-									<h4>New York State Univerity</h4>
-									<h5>Advance Graphic Designer</h5>
-								</div>
-								<div class="text-inner">
-									Nam tempor finibus sodales. Nulla nulla turpis, fringilla 
-sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobortis. Sed id porta metus. Phasellus nec convallis odio, vel laoreet enim. In quis risus sem. 
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- Work Experience Loop -->
-					
-					<!-- Work Experience Loop -->
-					<div class="col-md-6 col-xs-12">
-						<div class="experience-wrap education">
-							<div class="date-wrap">
-								2003 / Sep 2000 / June
-							</div>
-							<div class="text-wrap">
-								<div class="organization-name">
-									<h4>New York State Univerity</h4>
-									<h5>Advance Graphic Designer</h5>
-								</div>
-								<div class="text-inner">
-									Nam tempor finibus sodales. Nulla nulla turpis, fringilla 
-sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobortis. Sed id porta metus. Phasellus nec convallis odio, vel laoreet enim. In quis risus sem. 
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- Work Experience Loop -->
-				</div>
-			</div>
-		</section>
 		
-		<section id="service" class="page-content">
+		<!--<section id="service" class="page-content">
 			<div class="container">
 				<div class="main-head">
 					<h1>my services</h1>
@@ -413,7 +338,6 @@ sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobor
 					</div>
 					
 					<div class="spacer">
-						<!-- Services Loop -->
 						<div class="col-md-4 col-xs-12">
 							<div class="experience-wrap">
 								<div class="icon-wrap">
@@ -431,9 +355,6 @@ sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobor
 								</div>
 							</div>
 						</div>
-						<!-- Services Loop -->
-						
-						<!-- Services Loop -->
 						<div class="col-md-4 col-xs-12">
 							<div class="experience-wrap">
 								<div class="icon-wrap">
@@ -451,9 +372,6 @@ sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobor
 								</div>
 							</div>
 						</div>
-						<!-- Services Loop -->
-						
-						<!-- Services Loop -->
 						<div class="col-md-4 col-xs-12">
 							<div class="experience-wrap">
 								<div class="icon-wrap">
@@ -471,7 +389,6 @@ sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobor
 								</div>
 							</div>
 						</div>
-						<!-- Services Loop -->
 						<div class="clearfix"></div>
 					</div>
 					
@@ -479,7 +396,6 @@ sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobor
 						<div class="col-md-12 smart-mar">
 							<div class="sub-head">Print Services</div>
 						</div>
-						<!-- Services Loop -->
 						<div class="col-md-4 col-xs-12">
 							<div class="experience-wrap">
 								<div class="icon-wrap">
@@ -497,9 +413,6 @@ sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobor
 								</div>
 							</div>
 						</div>
-						<!-- Services Loop -->
-						
-						<!-- Services Loop -->
 						<div class="col-md-4 col-xs-12">
 							<div class="experience-wrap">
 								<div class="icon-wrap">
@@ -517,9 +430,6 @@ sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobor
 								</div>
 							</div>
 						</div>
-						<!-- Services Loop -->
-						
-						<!-- Services Loop -->
 						<div class="col-md-4 col-xs-12">
 							<div class="experience-wrap">
 								<div class="icon-wrap">
@@ -536,8 +446,7 @@ sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobor
 									</div>
 								</div>
 							</div>
-						</div>
-						<!-- Services Loop -->                    
+						</div>                 
 						<div class="clearfix"></div>
 					</div>
 					
@@ -545,7 +454,6 @@ sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobor
 					<div class="col-md-12 smart-mar">
 						<div class="sub-head">SEO Services</div>
 					</div>
-					<!-- Services Loop -->
 					<div class="col-md-4 col-xs-12">
 						<div class="experience-wrap">
 							<div class="icon-wrap">
@@ -563,9 +471,6 @@ sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobor
 							</div>
 						</div>
 					</div>
-					<!-- Services Loop -->
-					
-					<!-- Services Loop -->
 					<div class="col-md-4 col-xs-12">
 						<div class="experience-wrap">
 							<div class="icon-wrap">
@@ -583,9 +488,6 @@ sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobor
 							</div>
 						</div>
 					</div>
-					<!-- Services Loop -->
-					
-					<!-- Services Loop -->
 					<div class="col-md-4 col-xs-12">
 						<div class="experience-wrap">
 							<div class="icon-wrap">
@@ -603,7 +505,6 @@ sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobor
 							</div>
 						</div>
 					</div>
-					<!-- Services Loop -->
 				</div>
 			</div>
 			
@@ -632,7 +533,7 @@ sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobor
 					</div>	
 				</div>
 			</div>
-		</section>
+		</section>-->
 		
 		<section id="skill" class="page-content">
 			<div class="container">
@@ -644,99 +545,80 @@ sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobor
 					
 					<div class="spacer clearfix">
 						<div class="col-md-6 col-xs-12">
-							<div class="sub-head">Software</div>
+							<div class="sub-head">Technieken</div>
 							<div class="row piecharts" id="pie-charts">
 								<div class="col-xs-6 col-lg-4 col-md-4">
 									<span class="chart" data-percent="90">
 										<span class="percent"></span>
 									</span>
-									<div class="skill-name">Dreamweaver</div>
+									<div class="skill-name">ASP.NET</div>
 								</div>
 								<div class="col-xs-6 col-lg-4 col-md-4">
 									<span class="chart" data-percent="90">
 										<span class="percent"></span>
 									</span>
-									<div class="skill-name">Wordpress</div>
+									<div class="skill-name">C#</div>
 								</div>
 								<div class="col-xs-6 col-lg-4 col-md-4">
 									<span class="chart" data-percent="95">
 										<span class="percent"></span>                                        
 									</span>
-									<div class="skill-name">HTML5/CSS</div>
+									<div class="skill-name">REST</div>
 								</div>
 								<div class="col-xs-6 col-lg-4 col-md-4">
 									<span class="chart" data-percent="66">
 										<span class="percent"></span>                                        
 									</span>
-									<div class="skill-name">Jquery</div>
+									<div class="skill-name">MSSQL</div>
 								</div>
 								<div class="col-xs-6 col-lg-4 col-md-4">
 									<span class="chart" data-percent="85">
 										<span class="percent"></span>                                        
 									</span>
-									<div class="skill-name">Photoshop</div>
+									<div class="skill-name">GIT</div>
 								</div>
 								<div class="col-xs-6 col-lg-4 col-md-4">
 									<span class="chart" data-percent="86">
 										<span class="percent"></span>                                        
 									</span>
-									<div class="skill-name">Illustrator</div>
+									<div class="skill-name">JSON</div>
 								</div>
 							</div>
 						</div>
 						
-						<div class="col-md-6 col-xs-12">
-							<div class="sub-head">Language Skills</div>
-							<div class="skillbar-wrap">
-								<div class="clearfix">
-									<div class="pull-left">English</div>
-									<div class="pull-right">95%</div>
-								</div>
-								<div class="skillbar" data-percent="95%">
-									<div class="skillbar-bar"></div>
-								</div>             
-							</div>
-							
-							<div class="skillbar-wrap">
-								<div class="clearfix">
-									<div class="pull-left">French</div>
-									<div class="pull-right">98%</div>
-								</div>
-								<div class="skillbar" data-percent="98%">
-									<div class="skillbar-bar"></div>
-								</div>             
-							</div>
-							
-							<div class="skillbar-wrap">
-								<div class="clearfix">
-									<div class="pull-left">German</div>
-									<div class="pull-right">70%</div>
-								</div>
-								<div class="skillbar" data-percent="70%">
-									<div class="skillbar-bar"></div>
-								</div>             
-							</div>
-							
-							<div class="skillbar-wrap">
-								<div class="clearfix">
-									<div class="pull-left">Spanish</div>
-									<div class="pull-right">95%</div>
-								</div>
-								<div class="skillbar" data-percent="95%">
-									<div class="skillbar-bar"></div>
-								</div>             
-							</div>
-							
-							<div class="skillbar-wrap">
-								<div class="clearfix">
-									<div class="pull-left">Bengali</div>
-									<div class="pull-right">75%</div>
-								</div>
-								<div class="skillbar" data-percent="75%">
-									<div class="skillbar-bar"></div>
-								</div>             
-							</div>
-						</div>
+                        <div class="col-md-6 col-xs-12">
+                            <div class="sub-head">Taal Vaardigheden</div>
+
+                            <div class="skillbar-wrap">
+                                <div class="clearfix">
+                                    <div class="pull-left">Nederlands</div>
+                                    <div class="pull-right">98%</div>
+                                </div>
+                                <div class="skillbar" data-percent="98%">
+                                    <div class="skillbar-bar"></div>
+                                </div>
+                            </div>
+
+                            <div class="skillbar-wrap">
+                                <div class="clearfix">
+                                    <div class="pull-left">Engels</div>
+                                    <div class="pull-right">85%</div>
+                                </div>
+                                <div class="skillbar" data-percent="85%">
+                                    <div class="skillbar-bar"></div>
+                                </div>
+                            </div>
+
+                            <div class="skillbar-wrap">
+                                <div class="clearfix">
+                                    <div class="pull-left">Duits</div>
+                                    <div class="pull-right">50%</div>
+                                </div>
+                                <div class="skillbar" data-percent="50%">
+                                    <div class="skillbar-bar"></div>
+                                </div>
+                            </div>
+                        </div>
 					</div>
 					
 					<!--<div class="col-md-6 col-xs-12">
@@ -797,42 +679,42 @@ sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobor
 			 <div class="milestones-bg parallax-area parallax-image" data-stellar-background-ratio="0.4" >
 				<div class="page-overlay"></div>
 				<div class="text-center container">
-					<div class="sub-head">Milestones</div>
-					<div class="mini-spacer">
-						<div class="col-sm-3">
-							<div class="stats-wrap">
-								<i class="fa fa-clock-o"></i>
-								<span class="counter">1980</span>
-								<div>Hours Of Works</div>
-							</div>
-						</div>
-						
-						<div class="col-sm-3">
-							<div class="stats-wrap">
-								<i class="fa fa-code"></i>
-								<span class="counter">12800</span>
-								<div>Lines of code</div>
-							</div>
-						</div>
-						
-						<div class="col-sm-3">
-							<div class="stats-wrap">
-								<i class="fa fa-coffee"></i>
-								<span class="counter" id="coffeecounter">0</span>
-								<div>Cups of Coffee</div>
-							</div>
-						</div>
-						
-						<div class="col-sm-3">
-							<div class="stats-wrap">
-								<i class="fa fa-trophy"></i>
-								<span class="counter">75</span>
-								<div>Awards have been won</div>
-							</div>
-						</div>
-						
-						<div class="clearfix"></div>
-					</div>	
+					<div class="sub-head">Mijlpalen</div>
+                    <div class="mini-spacer">
+                        <div class="col-sm-3">
+                            <div class="stats-wrap">
+                                <i class="fa fa-trophy"></i>
+                                <span class="counter" id="yearscounter">0</span>
+                                <div>Jaren Ervaring</div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="stats-wrap">
+                                <i class="fa fa-code"></i>
+                                <span class="counter" id="projectcounter">0</span>
+                                <div>Succesvolle Projecten</div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="stats-wrap">
+                                <i class="fa fa-coffee"></i>
+                                <span class="counter" id="coffeecounter">0</span>
+                                <div>Kopjes coffee</div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="stats-wrap">
+                                <i class="fa fa-clock-o"></i>
+                                <span class="counter" id="workhourscounter">0</span>
+                                <div>Werk uren</div>
+                            </div>
+                        </div>
+
+                        <div class="clearfix"></div>
+                    </div>	
 				</div>
 			</div>
 		</section>
@@ -1096,7 +978,7 @@ sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobor
 			</div>          
 		</section>-->
 		
-		<section id="blog" class="page-content">
+		<!--<section id="blog" class="page-content">
 			<div class="container">
 				<div class="main-head">
 					<h1>from blog</h1>
@@ -1186,7 +1068,7 @@ sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobor
 					<a href="#" class="btn-round">Visit Our Blog</a>
 				</div>	
 			</div>             
-		</section>
+		</section>-->
 		
 		<!--<section id="clients" class="page-content">
 			<div class="container">
@@ -1271,7 +1153,7 @@ sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobor
 						</div>
 					</div>
 					<div class="col-sm-4">
-						<div class="sub-head">Vind mij hier</div>
+						<div class="sub-head">Omgeving</div>
 						<ul class="footer-contact">
 							<li>
 								<i class="fa fa-map-marker"></i>
@@ -1329,7 +1211,7 @@ sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobor
 						Copyright &copy; 2019 Jean-Paul van Houten. All Right Reserved 
 					</div>
 					<div class="col-sm-6 text-right">
-						Designed & developed With <i class="fa fa-heart-o red"></i> By Jean-Paul van Houten
+						Designed & Developed With <i class="fas fa-heart-o red"></i> By Jean-Paul van Houten
 					</div>
 				</div>
 			</div>
@@ -1360,7 +1242,6 @@ sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobor
 	<script type="text/javascript" src="js/jquery.cubeportfolio.min.js"></script>
 	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
 	<script type="text/javascript" src="js/jflickrfeed.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 	
 	<!-- JQuery Map Plugin -->
 	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>

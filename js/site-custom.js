@@ -4,13 +4,41 @@
 		$("#pageloader").delay(1200).fadeOut("slow");
 		$(".loader-item").delay(700).fadeOut();
 	});
+
+
+	function calculateAge(birthday) { // birthday is a date
+		var ageDifMs = Date.now() - birthday.getTime();
+		var ageDate = new Date(ageDifMs); // miliseconds from epoch
+		return Math.abs(ageDate.getUTCFullYear() - 1970);
+	}
 	
 	/* ==============================================
 	Custom Javascript
 	=============================================== */
 	$(document).ready(function() {
 	    'use strict';
-		
+
+
+		var Date1 = new Date(2014, 2, 1);
+		var Date2 = new Date();	   
+		var WorkDays = Math.ceil(((Date2.getTime() - Date1.getTime()) / (1000 * 60 * 60 * 24)) * 0.70);	 
+
+
+		var Startyear = new Date(2014, 1, 1);	  
+		var WorkYears = calculateAge(Startyear);
+
+		// days in a year * percentage of work days * avarage cups of coffee
+		$("#coffeecounter").html(Math.ceil(WorkDays * 5));
+
+		// todo: tel projecten
+		$("#projectcounter").html(5);
+
+		// nr of years experience
+		$("#yearscounter").html(WorkYears);
+
+		// calculate work hours
+		$("#workhourscounter").html(Math.ceil(WorkDays * 9.5));
+
 		jQuery('.panel-heading a').click(function() {
 			$('.panel-heading').removeClass('actives');
 			$(this).parents('.panel-heading').addClass('actives');
@@ -327,19 +355,6 @@
 	            subject: "Please enter a subject.",
 	            comment: "Please enter a comment."
 	        },
-		}); /*========================================*/
-
-		function workday_count(start, end) {
-			var first = start.clone().endOf('week'); // end of first week
-			var last = end.clone().startOf('week'); // start of last week
-			var days = last.diff(first, 'days') * 5 / 7; // this will always multiply of 7
-			var wfirst = first.day() - start.day(); // check first week
-			if (start.day() == 0)--wfirst; // -1 if start with sunday 
-			var wlast = end.day() - last.day(); // check last week
-			if (end.day() == 6)--wlast; // -1 if end with saturday
-			return wfirst + days + wlast; // get the total
-		}
-
-		$("#coffeecounter").html(workday_count('2014-02-01', new Date().toISOString().slice(0, 10)) * 0.80 * 5);
+		}); /*========================================*/   	 
 		
 	});
