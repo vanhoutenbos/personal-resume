@@ -9,7 +9,7 @@
 	*/
 	
 	//Get your email address
-	$contact_email = 'jhouten17@gmail.com'; //Example : Youremail.com
+	$contact_email = 'jeanpaulvanhouten@gmail.com'; //Example : Youremail.com
 	
 	//Enter your email address, email from contact form will send to this addresss. Please enter inside quotes ('myemail@email.com')
 	define('DEST_EMAIL', $contact_email);
