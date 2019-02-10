@@ -1,0 +1,381 @@
+{
+  "basics": {
+    "name": "Jean-Paul van Houten",
+    "label": "Medior .Net Developer at ParTech IT",
+    "picture": "http://www.partech.nl/-/media/habitat/images/person/jean-paul.png?h=500&w=500&hash=CB99FB35FE62B7F8E93E09DB6B4BBC3CCBF72117",
+    "email": "jean-paul@partechit.nl",
+    "phone": "0611221038",
+    "birthyear": "1994",
+    "website": "http://www.jeanpaulvanhouten.com",
+    "summary": "Programmeren houd mij elke dag bezig, dit begon in 2006 toen ik een programma genaamd \"Game Maker\" vond, zoals de naam al doet vermoeden kun je hiermee spellen maken. Na een aantal kleine games te hebben gemaakt (\"click the apple\", \"maze\", \"pacman\") ben ik overgegaan naar het hosten van een Tibia server, waarin ik mijn eigen kaarten maakte en mensen via een betaalde service toegang gaf tot hun eigen 'eilandje', door Tibia kwam ik erachter dat ik het leuk vond om games te ontwerpen en te bouwen en ben ik begonnen met Unity, Hierin heb ik een aantal games nagebouwd zoals Doom en daarna zelf een aantal games gemaakt (die kun je zien op http://jeanpaulvanhouten.com/). Uiteindelijk heb ik in 2014 besloten om web-developer te worden omdat de markt in gaming niet past bij wat ik voor mijzelf als toekomst zag, wel is de passie voor het programmeren en dan vooral in C# er gebleven!",
+    "location": {
+      "address": "",
+      "postalCode": "4854",
+      "city": "Breda",
+      "countryCode": "NL",
+      "region": "Noord-Brabant"
+    },
+    "profiles": []
+  },
+  "work": [
+    {
+      "company": "ParTech IT",
+      "position": "Medior .Net Developer",
+      "website": "https://partech.nl",
+      "logo": "http://www.partech.nl/-/media/habitat/images/logo/partech.svg?la=nl&mh=50&hash=1630B75348E8D0A6DA2B55E8DF4661FEBE495AEE",
+      "startDate": "2019-01-01",
+      "summary": "",
+      "techniques": "C#, ASP.NET, MVC, .NET CORE, MSSQL, HTML",
+      "highlights": []
+    },
+    {
+      "company": "GGN",
+      "position": ".Net Software Developer",
+      "website": "https://ggn.nl",
+      "startDate": "2016-06-01",
+      "summary": "Bij GGN was ik verantwoordelijk voor het bedenken, ontwerpen, bouwen en onderhouden van applicaties die het process  digitaliseren/automatiseren. Bij GGN was toen ik binnenkwam het werken met Excel sheets, het kopiëren van data van de ene naar de ander, en het gebruik van papier waar bijvoorbeeld een App het werk over kon nemen de normaalste zaak van de wereld. Aan het eind van mijn werktijd bij GGN was het papierwerk voor zover dat kon vervangen door een App op de tablet en excelsheets zoveel mogelijk omgebouwd naar database systemen die met elkaar communiceerde.  Als je meer wilt weten over producten die ik bij GGN heb gebouwd stuur me dan even een privéberichtje.",
+      "techniques": "C#, ASP.NET, MVC, .NET CORE, SignalR, MSSQL, HTML, CSS, Javascript, MySQL, Cordova, PHP",
+      "highlights": [],
+      "endDate": "2018-12-01"
+    },
+    {
+      "company": "Tri-Torque b.v.",
+      "position": ".Net Software Developer",
+      "website": "https://ttt.nl/",
+      "startDate": "2015-06-01",
+      "summary": "Bij TTT was ik verantwoordelijk voor het bouwen & onderhouden van verschillende websites & applicaties die het doel diende om toegang tot panden te geven of af te nemen door middel van een CMS.",
+      "highlights": [],
+      "techniques": "C#, ASP.NET, MVC, .NET CORE, MSSQL, HTML, CSS, Javascript, MySQL",
+      "endDate": "2016-05-01"
+    },
+    {
+      "company": "Synchron Lab Automation",
+      "position": "Robotic Process Automation Developer",
+      "website": "https://www.synchronlab.com/",
+      "logo": "https://www.synchronlab.com/wp-content/uploads/2014/01/logo-synchron-website-kopie1.png",
+      "startDate": "2015-03-01",
+      "summary": "Bij Synchron Lab was ik verantwoordelijk voor het automatiseren en installeren van robots bij klanten door gebruik te maken van .NET. Deze robots worden gebruikt in laboratoriums voor het pipetteren van verschillende chemicaliën.",
+      "highlights": [],
+      "techniques": "C#, VB",
+      "endDate": "2015-06-01"
+    },
+    {
+      "company": "BlewScreen",
+      "position": "Internship Game Developer",
+      "website": "https://www.blewscreen.com/",
+      "logo": "https://www.blewscreen.com/wp-content/uploads/2014/08/logo_60x60.png",
+      "startDate": "2014-09-01",
+      "summary": "Als Game Development stagiair heb ik meegeholpen aan het afmaken van Gulf of Aden (Steam-ready maken) en het bouwen van Goods.",
+      "highlights": [],
+      "techniques": "C#, Unity, Shaders, Physics, AI",
+      "endDate": "2015-02-01"
+    },
+    {
+      "company": "Play like a Champion B.V.",
+      "position": "Internship Game Developer",
+      "website": "https://www.sociossports.com/",
+      "logo": "http://www.sociossports.com/wp-content/uploads/2016/05/logo-2.png",
+      "startDate": "2014-02-01",
+      "summary": "Als Game Development stagiair heb ik meegeholpen aan het maken van een facebook 'prediction' generator, waarmee voetbal wedstrijden uit de eurodivisie werden gegenereerd waar je dan je vermoedelijke uitslag op kan geven en prijzen mee kan winnen.",
+      "highlights": [],
+      "techniques": "C#",
+      "endDate": "2014-07-01"
+    },
+    {
+      "company": "Staples Nederland",
+      "position": "Kantoorartikelen en Electronica Verkoopspecialist",
+      "website": "https://www.staples.nl/",
+      "logo": "https://www.staples.nl/Images/shared/stardust.gif?v=qfFzE8m3biW6n6lL_vojnQ",
+      "startDate": "2011-05-01",
+      "summary": "Bij Staples was ik verantwoordelijk voor de electronica afdeling, hier adviseerde ik klanten in wat ze het beste met hun kapotte laptop konden doen (repareren of vervangen) maar ook met advies over bijvoorbeeld wifi oplossingen. daarnaast repareerde ik soms laptops/desktops als hulp bij de EasyTech afdeling.",
+      "highlights": [],
+      "endDate": "2014-02-01"
+    }
+  ],
+  "projects": [
+    {
+      "product": "RouteGGN",
+      "role": "Full-stack developer",
+      "website": "https://ggn.nl",
+      "startDate": "2016-06-01",
+      "endDate": "2018-12-31",
+      "summary": "Met deze app wordt het deurwaarders werk gedigitaliseerd waardoor het werk makkelijker en sneller gaat. Dit houd voor de debiteuren in dat de kosten lager worden omdat de deurwaarder minder handelingen (tijd) hoeft te besteden. Voor deze applicatie ben ik verantwoordelijk voor het digitaal maken van de wensen van de deurwaarders. Samen met het RouteGGN Team vertalen wij wensen van de deurwaarders naar technische functionaliteiten en zorgen wij dat de koppeling met het legacy systeem genaamd EuroDossier wordt gekoppeld zodat dossierbehandelaars real-time informatie krijgen wanneer een deurwaarder bij iemand is langs geweest.",
+      "techniques": "C#, .NET CORE, HTML, CSS, Javascript, MySQL, PHP, RESTFull API, Google FireBase, Google Maps, Cordova",
+      "highlights": [
+        {
+          "title": "Google Whitepaper",
+          "description": "Google heeft een artikel geschreven over RouteGGN",
+          "website": "https://cloud.google.com/customers/ggn/"
+        }
+      ]
+    },
+    {
+      "product": "BankRobot",
+      "role": "Full-stack developer",
+      "website": "https://ggn.nl",
+      "startDate": "2017-01-01",
+      "endDate": "2018-12-31",
+      "summary": "Met deze applicatie worden bankbestanden (CAMT52 & CAMT53) automatisch verwerkt op basis van bekende klant informatie. Wanneer er een bepaalde zekerheid wordt bereikt dat de gevonden klant hoort bij de betaling dan zal deze automatisch wordt verwerkt, wanneer dit niet zo is zal hij “uitvallen” en in de User Interface voor de medewerkers getoond worden. Tijdens het Bankrobot traject ben ik verantwoordelijk geweest voor het bouwen van een webapplicatie waarin medewerkers van de financiële afdeling toegang krijgen tot een portaal waarbij ze de uitgevallen betalingen kunnen verwerken. Aangezien de financiële afdeling dit voorheen deed via excel sheets en het gebruiken van een Legacy applicatie was een van mijn taken het vertalen van de wensen van hen naar technische functionaliteiten.",
+      "techniques": "C#, ASP.NET, MVC, .NET CORE, MySQL, HTML, Dockers, Java",
+      "highlights": []
+    },
+    {
+      "product": "MijnIncasso",
+      "role": "Full-stack developer",
+      "website": "https://mijnincasso.ggn.nl",
+      "startDate": "2017-01-01",
+      "endDate": "2018-08-01",
+      "summary": "In dit portaal kunnen klanten (debiteuren) hun schulden inzien en betalingen doen. Ook kunnen ze in dit portaal informatie vinden over hun dossiers & de status ervan. Binnen het MijnIncasso traject ben ik samen met het MijnIncasso Team verantwoordelijk voor het herbouwen van een al bestaande applicatie. De al bestaande applicatie is erg verouderd en daarom gaan wij voor een nieuwe look en stijl maar ook voor een website met meer functionaliteiten. Één van de hoofd functionaliteiten en daarbij ook grootste uitdagingen is het automatisch kunnen afsluiten van een regeling als debiteur.",
+      "techniques": "C#, .NET, MVC, REST, MySQL, HTML, CSS, Javascript",
+      "highlights": [
+        {
+          "title": "GGN Artikel",
+          "description": "Artikel over MijnIncasso & waarom het is vernieuwd",
+          "website": "https://www.ggn.nl/actueel/2018/ggn-introduceert-mijnincasso"
+        }
+      ]
+    },
+    {
+      "product": "GGN ContactFormulier",
+      "role": "Full-stack developer",
+      "website": "https://contact.ggn.nl",
+      "startDate": "2016-06-01",
+      "endDate": "2016-09-01",
+      "summary": "Via het contactformulier kunnen er een aantal verschillende soorten “contact redenen” worden ingevuld. Zodra de klant (debiteur) het formulier heeft ingevuld ontvangt hij/zij een bevestiging en wordt het formulier automatisch verwerkt en meteen doorgezet naar de juiste afdeling voor behandeling.",
+      "techniques": "C#, .NET, MVC, REST, MySQL, HTML, CSS, Javascript",
+      "highlights": [
+        {
+          "title": "GGN Artikel",
+          "description": "Artikel over MijnIncasso & waarom het is vernieuwd",
+          "website": "https://www.ggn.nl/actueel/2018/ggn-introduceert-mijnincasso"
+        }
+      ]
+    },
+    {
+      "product": "StratRoulette",
+      "role": "Full-stack developer",
+      "website": "http://stratroulette.dakpangames.com",
+      "startDate": "2016-06-01",
+      "endDate": "2018-10-01",
+      "summary": "Een Roulette website waarbij de spelers voor hun spel een willekeurige strategie krijgen (serieus of grappig). Deze website wordt gebruikt door +/- 2000 spelers per week.",
+      "techniques": "C#, .NET, MVC, REST, MySQL, HTML, CSS, Javascript",
+      "highlights": []
+    },
+    {
+      "product": "R6DBot",
+      "role": "Full-stack developer",
+      "website": "http://R6DB.com",
+      "startDate": "2016-12-01",
+      "endDate": "2018-03-01",
+      "summary": "OFFLINE (gestopt i.v.m. GDPR) Deze Discord Robot helpt spelers met het achterhalen van hun eigen statistieken of die van hun tegenstander.",
+      "techniques": "C#, .NET CORE, REST",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Grafisch Lyceum Utrecht",
+      "area": "",
+      "studyType": "MBO",
+      "startDate": "2011-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2015-01-01"
+    },
+    {
+      "institution": "Oosterlicht College Nieuwegein",
+      "area": "",
+      "studyType": "TL, Student",
+      "startDate": "2008-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2011-01-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "ASP.NET MVC",
+      "level": "5",
+      "keywords": []
+    },
+    {
+      "name": "Javascript",
+      "level": "4",
+      "keywords": []
+    },
+    {
+      "name": "HTML",
+      "level": "4",
+      "keywords": []
+    },
+    {
+      "name": "CSS",
+      "level": "4",
+      "keywords": []
+    },
+    {
+      "name": "CI/CD",
+      "level": "3",
+      "keywords": []
+    },
+    {
+      "name": "SignalR",
+      "level": "3",
+      "keywords": []
+    },
+    {
+      "name": "Atlassian",
+      "level": "2",
+      "keywords": []
+    },
+    {
+      "name": "MySQL",
+      "level": "3",
+      "keywords": []
+    },
+    {
+      "name": "HTML5",
+      "level": "4",
+      "keywords": []
+    },
+    {
+      "name": "ASP.NET",
+      "level": "5",
+      "keywords": []
+    },
+    {
+      "name": "AJAX",
+      "level": "4",
+      "keywords": []
+    },
+    {
+      "name": "jQuery",
+      "level": "4",
+      "keywords": []
+    },
+    {
+      "name": "Xamarin",
+      "level": "1",
+      "keywords": []
+    },
+    {
+      "name": "JSON",
+      "level": "5",
+      "keywords": []
+    },
+    {
+      "name": "REST",
+      "level": "4",
+      "keywords": []
+    },
+    {
+      "name": "Webservices",
+      "level": "4",
+      "keywords": []
+    },
+    {
+      "name": "Security Architecture Design",
+      "level": "3",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "3",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft SQL-server",
+      "level": "5",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft Azure",
+      "level": "2",
+      "keywords": []
+    },
+    {
+      "name": "Scrum",
+      "level": "2",
+      "keywords": []
+    },
+    {
+      "name": "Agile",
+      "level": "2",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "3",
+      "keywords": []
+    },
+    {
+      "name": "C-SHARP",
+      "level": "5",
+      "keywords": []
+    },
+    {
+      "name": "Game Maker Language",
+      "level": "5",
+      "keywords": []
+    },
+    {
+      "name": "MVC",
+      "level": "5",
+      "keywords": []
+    },
+    {
+      "name": "Bootstrap",
+      "level": "4",
+      "keywords": []
+    },
+    {
+      "name": "Jenkins",
+      "level": "3",
+      "keywords": []
+    },
+    {
+      "name": "Docker",
+      "level": "1",
+      "keywords": []
+    },
+    {
+      "name": "JIRA",
+      "level": "3",
+      "keywords": []
+    },
+    {
+      "name": "bitbucket",
+      "level": "3",
+      "keywords": []
+    },
+    {
+      "name": "git",
+      "level": "3",
+      "keywords": []
+    },
+    {
+      "name": "C#",
+      "level": "5",
+      "keywords": []
+    },
+    {
+      "name": "bamboo",
+      "level": "3",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "Nederlands",
+      "fluency": "Native or bilingual proficiency"
+    },
+    {
+      "language": "Engels",
+      "fluency": "Professional working proficiency"
+    },
+    {
+      "language": "Duits",
+      "fluency": "Elementary proficiency"
+    }
+  ]
+}

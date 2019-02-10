@@ -113,6 +113,16 @@
                                             <li>Email : <a href="#">email@site.com</a></li>
                                             <li>Adress : 1732 Monroe Street Houston, TX 77055</li>
                                         </ul>
+
+                                        <!--This is our template. -->
+                                            <!--Data will be inserted in its according place, replacing the brackets.-->
+                                            <script id="address-template" type="text/x-handlebars-template">
+                                                <p>You can find me in {{city}}. My address is {{number}} {{street}}.</p>
+                                            </script>
+                                            
+                                            <!--Your new content will be displayed in here-->
+                                            <div class="content-placeholder"></div>
+  
                                     </div>
                                 </div>
                             </div>
@@ -1347,6 +1357,8 @@ sagittis lorem vel, efficitur tristique tortor. Duis posuere et ligula sed lobor
     <!-- Core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="js/handlebars-v4.1.0.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript" src="js/jquery-min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>    
     <script type="text/javascript" src="js/jasny-bootstrap.js"></script>
