@@ -340,6 +340,6 @@
 			return wfirst + days + wlast; // get the total
 		}
 
-		$("#coffeecounter").html(workday_count('2014-02-01', new Date().toISOString().slice(0, 10)) * 0.80);
+		$("#coffeecounter").html(workday_count('2014-02-01', new Date().toISOString().slice(0, 10)) * 0.80 * 5);
 		
 	});
