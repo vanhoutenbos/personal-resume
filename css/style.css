@@ -77,7 +77,10 @@ h6 {
 	color:#999;
 }
 /* === End === */
-
+.blaze-orange
+{
+	color: #FF6600
+}
 header{
     position: fixed;
 	width:100%;
