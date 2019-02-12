@@ -335,7 +335,7 @@
 	                email: true
 	            },
 	            phone: {
-	                required: true,
+	                required: true
 	            },
 	            comment: {
 	                required: true
