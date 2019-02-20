@@ -809,3 +809,41 @@
         </div>-->
     </div><!-- xxx Google Map End xxx -->
 </section>
+
+
+	<!-- JQuery Map Plugin --> 
+    <script>
+            var map;
+            function initMap() {
+              map = new google.maps.Map(document.getElementById('map-holder'), {
+                center: {lat: 51.58656, lng: 4.77596},
+                zoom: 8
+              });
+            }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuJc0tkqcYAik60YZ1H1MJN7JAita-S5k&callback=initMap" type="text/javascript"></script>
+        <script type="text/javascript" src="js/jquery.gmap.min.js"></script>
+        
+        <script type="text/javascript" src="js/site-custom.js"></script>
+        <script type="text/javascript">
+            if($(window).width()>992){	
+                $(document).ready(function() {								
+                    function autosize_homepage_image(){
+                        var height = jQuery( window ).height();
+                        $('#home .full').css('height', height + 'px');
+                    }
+                    $( function(){
+                        autosize_homepage_image();
+                        $( window ).resize( function(){
+                            autosize_homepage_image();
+                        })
+                    });
+                });	//ready
+            }
+            else
+            {
+                $(window).resize(function(){
+                    autosize_homepage_image();
+                })
+            }
+        </script>
