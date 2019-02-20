@@ -31,7 +31,7 @@
 		$("#coffeecounter").html(Math.ceil(WorkDays * 5));
 
 		// todo: tel projecten
-		$("#projectcounter").html(5);
+		$("#projectcounter").html($("div.cbp-item").length);
 
 		// nr of years experience
 		$("#yearscounter").html(WorkYears);
