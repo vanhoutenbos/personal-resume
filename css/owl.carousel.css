@@ -1,6 +1,10 @@
 /* 
  *  Owl Carousel - Animate Plugin
  */
+ .owl-carousel {
+  touch-action: manipulation !important;
+ }
+ 
 .owl-carousel .animated {
   -webkit-animation-duration: 1000ms;
   animation-duration: 1000ms;
