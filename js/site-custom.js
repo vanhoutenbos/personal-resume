@@ -3,6 +3,9 @@
 		
 		$("#pageloader").delay(1200).fadeOut("slow");
 		$(".loader-item").delay(700).fadeOut();
+		
+		$("#navbar").load("/navbar.html");
+		$("#footer").load("/footer.html");
 	});
 
 
@@ -16,7 +19,7 @@
 	Custom Javascript
 	=============================================== */
 	$(document).ready(function() {
-	    'use strict';
+		'use strict';
 
 
 		var Date1 = new Date(2014, 2, 1);
@@ -45,21 +48,21 @@
 		});
 		
 		//Shrink Header
-	    $(function() {
-	        var shrinkHeader = 130;
-	        $(window).scroll(function() {
-	            var scroll = getCurrentScroll();
-	            if (scroll >= shrinkHeader) {
-	                $('header').addClass('colored');
-	            } else {
-	                $('header').removeClass('colored');
-	            }
-	        });
+		$(function() {
+			var shrinkHeader = 130;
+			$(window).scroll(function() {
+				var scroll = getCurrentScroll();
+				if (scroll >= shrinkHeader) {
+					$('header').addClass('colored');
+				} else {
+					$('header').removeClass('colored');
+				}
+			});
 
-	        function getCurrentScroll() {
-	            return window.pageYOffset || document.documentElement.scrollTop;
-	        }
-	    });
+			function getCurrentScroll() {
+				return window.pageYOffset || document.documentElement.scrollTop;
+			}
+		});
 		
 		$("html").niceScroll({
 			cursorwidth:"13px",
@@ -69,9 +72,9 @@
 		});
 		
 		//Mobile Nav
-	    $('.navbar-nav a').click(function() {
-	        $('.navbar-collapse').removeClass('in').addClass("collapse");
-	    });
+		$('.navbar-nav a').click(function() {
+			$('.navbar-collapse').removeClass('in').addClass("collapse");
+		});
 		
 		/* Tooltip */
 		$('a.like-icons, a.comments-icon, .social-icons ul li a, .demo-button a').tooltip({
@@ -81,21 +84,21 @@
 		});
 		
 		//Shrink Header
-	    $(function() {
-	        var shrinkHeader = 200;
-	        $(window).scroll(function() {
-	            var scroll = getCurrentScroll();
-	            if (scroll >= shrinkHeader) {
-	                $('.navbar ').addClass('colored');
-	            } else {
-	                $('.navbar').removeClass('colored');
-	            }
-	        });
+		$(function() {
+			var shrinkHeader = 200;
+			$(window).scroll(function() {
+				var scroll = getCurrentScroll();
+				if (scroll >= shrinkHeader) {
+					$('.navbar ').addClass('colored');
+				} else {
+					$('.navbar').removeClass('colored');
+				}
+			});
 
-	        function getCurrentScroll() {
-	            return window.pageYOffset || document.documentElement.scrollTop;
-	        }
-	    });
+			function getCurrentScroll() {
+				return window.pageYOffset || document.documentElement.scrollTop;
+			}
+		});
 
 		
 		$("#menu-toggle").click(function(e) {
@@ -110,11 +113,11 @@
 		});
 		
 		// Parallax Background
-	    $.stellar({
-	        responsive: true,
-	        horizontalScrolling: false,
-	        verticalOffset: 40
-	    });
+		$.stellar({
+			responsive: true,
+			horizontalScrolling: false,
+			verticalOffset: 40
+		});
 		
 		$('.skillbar').appear();
 			$('.skillbar').on('appear', function () {			
@@ -125,32 +128,32 @@
 		
 		// Flickr Photostream
 		$('#basicuse').jflickrfeed({
-	        limit: 12,
-	        qstrings: {
-	            id: '52617155@N08'
-	        },
-	        itemTemplate: '<li><a href="{{image_b}}"><img src="{{image_s}}" alt="{{title}}" /></a></li>'
-	    });
+			limit: 12,
+			qstrings: {
+				id: '52617155@N08'
+			},
+			itemTemplate: '<li><a href="{{image_b}}"><img src="{{image_s}}" alt="{{title}}" /></a></li>'
+		});
 		
 		/* Conter */
 		$('.counter').counterUp({
-            delay: 10,
-            time: 1000
-        });
+			delay: 10,
+			time: 1000
+		});
 
 		// Piecharts
-	    jQuery('#pie-charts').waypoint(function(direction) {
-	        jQuery('.chart').easyPieChart({
-	            barColor: "#59585b",
-	            onStep: function(from, to, percent) {
-	                jQuery(this.el).find('.percent').text(Math.round(percent));
-	            }
-	        });
-	    }, {
-	        offset: function() {
-	            return jQuery.waypoints('viewportHeight') - jQuery(this).height() + 200;
-	        }
-	    });
+		jQuery('#pie-charts').waypoint(function(direction) {
+			jQuery('.chart').easyPieChart({
+				barColor: "#59585b",
+				onStep: function(from, to, percent) {
+					jQuery(this.el).find('.percent').text(Math.round(percent));
+				}
+			});
+		}, {
+			offset: function() {
+				return jQuery.waypoints('viewportHeight') - jQuery(this).height() + 200;
+			}
+		});
 		
 		$('#hobbie-slider').owlCarousel({
 			center: false,
@@ -257,104 +260,63 @@
 	
 		})(jQuery, window, document);
 
-		// Google Map
-		$("#map_extended").gMap({
-	        markers: [{
-	            address: "",
-	            html: '<h4>Office</h4>' +
-	                '<address>' +
-	                '<div>' +
-	                '<div><b>Address:</b></div>' +
-	                '<div>Envato Pty Ltd, 13/2<br> Elizabeth St Melbourne VIC 3000,<br> Australia</div>' +
-	                '</div>' +
-	                '<div>' +
-	                '<div><b>Phone:</b></div>' +
-	                '<div>+1 (408) 786 - 5117</div>' +
-	                '</div>' +
-	                '<div>' +
-	                '<div><b>Fax:</b></div>' +
-	                '<div>+1 (408) 786 - 5227</div>' +
-	                '</div>' +
-	                '<div>' +
-	                '<div><b>Email:</b></div>' +
-	                '<div><a href="mailto:info@mithiliya.com">info@info@mithiliya.com</a></div>' +
-	                '</div>' +
-	                '</address>',
-	            latitude: -33.87695388579145,
-	            longitude: 151.22183918952942,
-	            icon: {
-	                image: "images/pin.png",
-	                iconsize: [35, 48],
-	                iconanchor: [17, 48]
-	            }
-	        }, ],
-	        icon: {
-	            image: "images/pin.png",
-	            iconsize: [35, 48],
-	            iconanchor: [17, 48]
-	        },
-	        latitude: -33.87695388579145,
-	        longitude: 151.22183918952942,
-	        zoom: 16
-	    });
-
 		
 		// Contact Form
 		jQuery("#contact_form").validate({
-	        meta: "validate",
-	        submitHandler: function(form) {
+			meta: "validate",
+			submitHandler: function(form) {
 
-	            var s_name = $("#name").val();
-	            var s_lastname = $("#lastname").val();
-	            var s_email = $("#email").val();
-	            var s_phone = $("#phone").val();
-	            var s_suject = $("#subject").val();
-	            var s_comment = $("#comment").val();
-	            $.post("contact.php", {
-	                    name: s_name,
-	                    lastname: s_lastname,
-	                    email: s_email,
-	                    phone: s_phone,
-	                    subject: s_suject,
-	                    comment: s_comment
-	                },
-	                function(result) {
-	                    $('#sucessmessage').append(result);
-	                });
-	            $('#contact_form').hide();
-	            return false;
-	        },
-	        /* */
-	        rules: {
-	            name: "required",
+				var s_name = $("#name").val();
+				var s_lastname = $("#lastname").val();
+				var s_email = $("#email").val();
+				var s_phone = $("#phone").val();
+				var s_suject = $("#subject").val();
+				var s_comment = $("#comment").val();
+				$.post("contact.php", {
+						name: s_name,
+						lastname: s_lastname,
+						email: s_email,
+						phone: s_phone,
+						subject: s_suject,
+						comment: s_comment
+					},
+					function(result) {
+						$('#sucessmessage').append(result);
+					});
+				$('#contact_form').hide();
+				return false;
+			},
+			/* */
+			rules: {
+				name: "required",
 
-	            lastname: "required",
-	            // simple rule, converted to {required:true}
-	            email: { // compound rule
-	                required: true,
-	                email: true
-	            },
-	            phone: {
-	                required: true
-	            },
-	            comment: {
-	                required: true
-	            },
-	            subject: {
-	                required: true
-	            }
-	        },
-	        messages: {
-	            name: "Please enter your name.",
-	            lastname: "Please enter your last name.",
-	            email: {
-	                required: "Please enter email.",
-	                email: "Please enter valid email"
-	            },
-	            phone: "Please enter a phone.",
-	            subject: "Please enter a subject.",
-	            comment: "Please enter a comment."
-	        },
+				lastname: "required",
+				// simple rule, converted to {required:true}
+				email: { // compound rule
+					required: true,
+					email: true
+				},
+				phone: {
+					required: true
+				},
+				comment: {
+					required: true
+				},
+				subject: {
+					required: true
+				}
+			},
+			messages: {
+				name: "Please enter your name.",
+				lastname: "Please enter your last name.",
+				email: {
+					required: "Please enter email.",
+					email: "Please enter valid email"
+				},
+				phone: "Please enter a phone.",
+				subject: "Please enter a subject.",
+				comment: "Please enter a comment."
+			},
 		}); /*========================================*/   	 
 		
 	});
