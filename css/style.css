@@ -77,7 +77,10 @@ h6 {
 	color:#999;
 }
 /* === End === */
-
+.blaze-orange
+{
+	color: #FF6600
+}
 header{
     position: fixed;
 	width:100%;
@@ -1772,3 +1775,8 @@ ul.color-scheme li a.victoria {background: #544AA1;}
 ul.color-scheme li a.violet {background: #D31996;}
 ul.color-scheme li a.violet-red {background: #F23A65;}
 /* === End === */
+
+
+.owl-carousel {
+	touch-action: manipulation;
+   }
