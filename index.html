@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
-<html lang="nl"><head>
+<html lang="nl">
+<head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -26,6 +27,8 @@
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 	<meta name="robots" content="index, follow" />
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <header name = "Access-Control-Allow-Origin" value = "*"></header>
 
 	<title>Jean-Paul - Developer | Domotica Geek | Teamplayer</title>
 
@@ -89,6 +92,7 @@
 	</header>
 	
 	<div id="main-wrapper">
+<<<<<<< HEAD
 		<section id="home" class="page-content zero-pad">
 			<div class="full">
 				<div class="full-img">
@@ -932,6 +936,11 @@
 			</div><!-- xxx Google Map End xxx -->
 		</section>
 		
+=======
+		<div id="content">
+           
+        </div>		
+>>>>>>> 00490ab... writing blog with partial views
 		
 		<section class="copyright">
 			<div class="container">
@@ -940,7 +949,7 @@
 						Copyright &copy; 2019 Jean-Paul van Houten. All Right Reserved 
 					</div>
 					<div class="col-sm-6 text-right">
-						Developed With <i class="fas fa-heart-o red"></i> By Jean-Paul van Houten
+						Developed With <i class="fa fa-heart-o red"></i> By Jean-Paul van Houten
 					</div>
 				</div>
 			</div>
@@ -971,7 +980,28 @@
 	<script type="text/javascript" src="js/jquery.cubeportfolio.min.js"></script>
 	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
 	<script type="text/javascript" src="js/jflickrfeed.min.js"></script>
-	
+    
+    <script>
+            $(document).ready(function(){
+                var content = "";
+                const urlParams = new URLSearchParams(window.location.search);
+                const myParam = urlParams.get('content');
+
+                content = myParam;
+                if(myParam == null)                
+                {
+                    content = "home";
+                }
+
+                $("#content").load("ajax/"+content+".html", function(responseTxt, statusTxt, xhr){
+                  if(statusTxt == "success")
+                    
+                  if(statusTxt == "error")
+                    alert("Error: " + xhr.status + ": " + xhr.statusText);
+                });
+            });
+    </script>
+
 	<!-- JQuery Map Plugin --> 
 	<script>
 		var map;
@@ -981,28 +1011,29 @@
 			zoom: 8
 		  });
 		}
-	  </script>
+	</script>
 	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuJc0tkqcYAik60YZ1H1MJN7JAita-S5k&callback=initMap" type="text/javascript"></script>
 	<script type="text/javascript" src="js/jquery.gmap.min.js"></script>
 	
 	<script type="text/javascript" src="js/site-custom.js"></script>
 	<script type="text/javascript">
 		if($(window).width()>992){	
-			jQuery(document).ready(function() {								
+			$(document).ready(function() {								
 				function autosize_homepage_image(){
 					var height = jQuery( window ).height();
-					jQuery('#home .full').css('height', height + 'px');
+					$('#home .full').css('height', height + 'px');
 				}
-				jQuery( function(){
+				$( function(){
 					autosize_homepage_image();
-					jQuery( window ).resize( function(){
+					$( window ).resize( function(){
 						autosize_homepage_image();
 					})
 				});
 			});	//ready
 		}
-		else{
-			jQuery(window).resize(function(){
+        else
+        {
+			$(window).resize(function(){
 				autosize_homepage_image();
 			})
 		}
