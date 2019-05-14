@@ -1780,3 +1780,7 @@ ul.color-scheme li a.violet-red {background: #F23A65;}
 .owl-carousel {
 	touch-action: manipulation;
    }
+
+   #home {
+	   padding-top: -20px;
+   }
