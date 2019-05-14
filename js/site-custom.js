@@ -4,8 +4,8 @@
 		$("#pageloader").delay(1200).fadeOut("slow");
 		$(".loader-item").delay(700).fadeOut();
 		
-		$("#navbar").load("/navbar.html");
-		$("#footer").load("/footer.html");
+		//$("#navbar").load("/navbar.html");
+		//$("#footer").load("/footer.html");
 	});
 
 
